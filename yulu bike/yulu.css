@@ -1,0 +1,54 @@
+@import url(./style.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+#main{
+   height:65px;
+   /* border:2px solid; */
+   position: fixed;
+}
+
+#nav{
+   height:inherit;
+   /* border:2px solid; */
+   width:80%;
+   margin-left:10rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+}
+#nav img{
+  padding:6px 10px;
+  height:60px;
+}
+#nav ul{
+  display: flex;
+}
+#nav ul li{
+  list-style:none;
+  padding-left:40px;
+  padding-top:19px;
+  font-size:20px;
+  color: aliceblue;
+}
+
+#nav ul li:last-child{
+  margin-right:50px;
+
+}
+#nav ul li select{
+  height: 40px;
+  width:120px; 
+  font-size:20px;
+  padding: 0px 7px;
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+}
+#nav ul li  select option{
+  background-color: transparent;
+  color: black;
+}
